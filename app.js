@@ -28,8 +28,10 @@ routes(app);
 
 
 //Connect to DB
+
 MongoClient.connect(config.mongo_url, (err, database) => {
   if(err) return console.log(err)
+  db = database;
   exports.db = database;
   console.log('DB ready.')
 });
@@ -53,7 +55,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 */
-
 
 module.exports = app;
 

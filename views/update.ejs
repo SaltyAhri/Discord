@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="/stylesheets/styles.css">
+  <title>SaltyAhri</title>
+</head>
+
+<body class= "wrapper">
+
+<div class="block">
+  <% for(var i=0; i<users.length; i++) {%>
+    <div class="floating-box shadow">
+      <p class="info">
+        ID: <%= users[i].User_ID %><br/>
+        Name: <%= users[i].UserName %><br/>
+	      Alive pic: <%= users[i].Alive_Picture %><br/>
+        Dead pic: <%= users[i].Dead_Picture %>
+      </p>
+    </div>
+  <% } %>
+</div>
+
+<div class= "block">
+  <div class="search">
+    <form name= "Update" action="/profile/<%= users[0].User_ID%>" method="post">
+      <input type="text" placeholder="Alive Picture URL" name="lpic">
+    <form name= "Update" action="/profile/<%= users[0].User_ID%>" method="post">
+      <input type="text" placeholder="Dead Picture URL" name="dpic">
+      <button type="submit">Update</button>
+    </form>
+  </div>
+</div>
+
+</html>

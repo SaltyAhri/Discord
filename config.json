@@ -1,3 +1,8 @@
 {
-  "url": "mongodb://SaltyAhri:dyddnr82@saltyahri-2-shard-00-00-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-01-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-02-ylmbf.mongodb.net:27017/test?ssl=true&replicaSet=SaltyAhri-2-shard-0&authSource=admin"
+  "token": "MzU3NzQ5ODY2NDgwNTMzNTA0.DLS7GA.bT7Qzn5QQ8Fym924Aw0nKlAS9Bs",
+  
+  "prefix": "!!",
+
+  "mongo_url": "mongodb://SaltyAhri:dyddnr82@saltyahri-2-shard-00-00-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-01-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-02-ylmbf.mongodb.net:27017/test?ssl=true&replicaSet=SaltyAhri-2-shard-0&authSource=admin"
+
 }

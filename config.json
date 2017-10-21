@@ -3,6 +3,6 @@
   
   "prefix": "!!",
 
-  "mongo_url": "mongodb://SaltyAhri:dyddnr82@saltyahri-2-shard-00-00-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-01-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-02-ylmbf.mongodb.net:27017/test?ssl=true&replicaSet=SaltyAhri-2-shard-0&authSource=admin"
+  "mongo_url": "mongodb://SaltyAhri:@saltyahri-2-shard-00-00-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-01-ylmbf.mongodb.net:27017,saltyahri-2-shard-00-02-ylmbf.mongodb.net:27017/test?ssl=true&replicaSet=SaltyAhri-2-shard-0&authSource=admin"
 
 }
